@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    /* -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: rgba(84, 77, 126, 0.75); */
+  background:linear-gradient(90deg, rgba(255, 191, 52, 0.726), rgba(255, 130, 28, 0.719), rgba(255, 94, 175, 0.774), rgba(230, 43, 255, 0.74), rgba(162, 0, 255, 0.74));
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.screen{
+    background-color: rgb(255, 255, 255);
+    width: 390px;
+    height: 825px;
+    box-shadow: 7px 7px 44px rgba(0, 0, 0, 0.705);
+    margin-top: 70px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 8px;
+}
+.plus_like_message{
+    margin-top: 30px;
+}
+
+.plus_like_message img{
+    margin-right: 15px;
+}
+
+.circles{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92px;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    margin-bottom: 15px;
+}
+
+.cont_circle div + div{
+    margin-left: 20px;
+}
+
+.profil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_png{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profil_logo{
+    padding: 0px 6px 0px 8px;
+}
+
+.user_name h4{
+    font-size: 12px;
+}
+
+.user_name p{
+    font-size: 8px;
+}
+
+button{
+    margin-right: 8px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(87, 87, 87);
+}
+
+.glav_user{
+    padding-bottom: 7px;
+}
+
+.clics_status{
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.crssl_click img{
+    width: 24px;
+}
+
+.click_save img{
+    width: 20px;
+}
+
+.crssl_img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 12px;
+}
+
+.img_flower{
+    width: 390px;
+}
+
+.comment_div{
+    font-size: 12px;
+    width: 345px;
+    padding: 8px 0px 0px 8px;
+}
+
+.comment_div p{
+    padding-top: 8px ;
+}
+
+.button_comment{
+    padding: 6px 0px 0px 8px;
+}
+
+.button_comment:hover button{
+    color: rgb(28, 27, 27);
+    transition: 0.5s;
+}
+
+.footer{
+    width: 390px;
+    height: 70px;
+    margin-top: 30px;
+    border-top: 1px solid rgb(158, 158, 158);
+}
+
+.ftr_click img{
+    width: 18px;
+}
+
+.ftr_click{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.click_navigation{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 30px;
+}
+
+.navigation{
+    background-color: black;
+    width: 125px;
+    height: 5px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.navigation:hover{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.437);
+    transition: 0.2s;
+    width: 130px;
+}
+
